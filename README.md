@@ -1,6 +1,6 @@
 # kill-mongodb [![][npm_img]][npm_url] [![][travis_img]][travis_url] [![][coverage_img]][coverage_url] [![][gitter_img]][gitter_url]
 
-Kill any currently running MongoDB instances.
+Kill any currently running MongoDB instances on OSX, Linux, or Windows.
 
 ## Installation
 
@@ -10,12 +10,17 @@ npm install --save-dev kill-mongodb;
 
 ## Examples
 
+If your tests start mongodb, you can just add a handy `posttest` hook
+to kill off any instances that might be lingering.
+
 ```json
 {
-  "name": "my-module",
+  ...
   "scripts": {
+    "test": "mocha",
     "posttest": "kill-mongodb"
   }
+  ...
 }
 ```
 
