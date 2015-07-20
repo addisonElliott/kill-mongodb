@@ -1,0 +1,5 @@
+.jsfmtrc
+.eslintrc
+.travis.yml
+test/
+.lone
