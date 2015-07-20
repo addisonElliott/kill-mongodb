@@ -1,4 +1,4 @@
-# kill-mongodb [![][npm_img]][npm_url] [![][travis_img]][travis_url] [![][coverage_img]][coverage_url] [![][gitter_img]][gitter_url]
+# kill-mongodb [![][npm_img]][npm_url] [![][travis_img]][travis_url] [![][coverage_img]][coverage_url] [![][appveyor_img]][appveyor_url] [![][gitter_img]][gitter_url]
 
 Kill any currently running MongoDB instances on OSX, Linux, or Windows.
 
@@ -36,3 +36,5 @@ Apache 2.0
 [coverage_url]: https://coveralls.io/r/mongodb-js/kill-mongodb
 [gitter_img]: https://badges.gitter.im/Join%20Chat.svg
 [gitter_url]: https://gitter.im/mongodb-js/mongodb-js
+[appveyor_img]: https://ci.appveyor.com/api/projects/status/4g98a17gjo360wgy?svg=true
+[appveyor_url]: https://ci.appveyor.com/project/imlucas/kill-mongodb
