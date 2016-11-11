@@ -1,6 +1,6 @@
 {
   "name": "kill-mongodb",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Kill any currently running MongoDB instances.",
   "scripts": {
     "check": "mongodb-js-precommit",
