@@ -20,7 +20,7 @@
     "test"
   ],
   "dependencies": {
-    "async": "^2.1.2",
+    "async": "2.1.2",
     "debug": "^2.2.0"
   },
   "devDependencies": {
