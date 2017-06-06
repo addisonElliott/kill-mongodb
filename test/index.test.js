@@ -12,9 +12,9 @@ describe('kill-mongodb', function() {
       ]);
     } else {
       assert.deepEqual(kill.commands, [
-        'killall -9 mongod',
-        'killall -9 mongo',
-        'killall -9 mongos'
+        'killall mongod',
+        'killall mongo',
+        'killall mongos'
       ]);
     }
   });

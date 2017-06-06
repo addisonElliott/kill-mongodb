@@ -4,7 +4,7 @@ var windows = require('os').platform() === 'win32';
 var exec = require('child_process').exec;
 
 var commands = ['mongod', 'mongo', 'mongos'].map(function(name) {
-  return windows ? 'taskkill /F /IM ' + name + '.exe' : 'killall -9 ' + name;
+  return windows ? 'taskkill /F /IM ' + name + '.exe' : 'killall ' + name;
 });
 
 module.exports = function(done) {
